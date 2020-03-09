@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "x-tab-contrl":"../../component/x-tab-contrl/x-tab-contrl",
+    "x-select": "/component/x-select/x-select",
+    "x-slot":"/component/x-slot/x-slot"
+  }
+}

@@ -1,0 +1,16 @@
+<!--pages/home.wxml-->
+<x-tab-contrl title="{{['衣服','裤子','鞋子','帽子']}}"
+                      bind:itemclick="handleContrlClick"/>
+                      <!-- 接受组件发出的信号 -->
+
+
+<!-- 获取组件对象的方式 -->
+<button size='mini' bind:tap="handeleBtnClick">+ 修改组件内的数据</button>
+<button size='mini' bind:tap="handeleSubClick">- 修改组件内的数据</button>
+<x-select class="dealevent"/>
+<view>................................................</view>
+<view>................................................</view>
+<view>................................................</view>
+
+<button size="mini" bind:tap="changeShow">改变</button>
+<view wx:if="{{isshow}}">life is wonderful</view>

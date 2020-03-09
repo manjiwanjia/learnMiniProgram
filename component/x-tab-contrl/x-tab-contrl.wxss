@@ -1,0 +1,19 @@
+/* component/x-tab-contrl/x-tab-contrl.wxss */
+.tab-contrl{
+  display: flex;
+  height: 120rpx;
+  line-height: 100rpx;
+  font-size: 40rpx;
+}
+.tab-item{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: red;
+ 
+}
+.active text{
+ padding: 20rpx 10rpx;
+ border-bottom:6rpx solid red;
+}
